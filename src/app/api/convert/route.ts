@@ -1,6 +1,6 @@
 import mammoth from 'mammoth';
 import { NextRequest, NextResponse } from 'next/server';
-import { PDFParse } from 'pdf-parse';
+import pdf from 'pdf-parse';
 import WordExtractor from 'word-extractor';
 
 import { MAX_FILE_SIZE_BYTES, ACCEPTED_EXTENSIONS } from '@/lib/fileUtils';
@@ -49,12 +49,10 @@ const extractToMarkdown = (buffer: Buffer, ext: string): Promise<string> => {
 };
 
 const extractPdf = async (buffer: Buffer): Promise<string> => {
-	const pdfParse = new PDFParse({ data: new Uint8Array(buffer) });
-	const data = await pdfParse.getText();
-	const text = data.text;
+	const data = await pdf(buffer);
 
 	// pdf-parse returns plain text — apply heuristics to recover structure
-	return structurePlainText(text);
+	return structurePlainText(data.text);
 };
 
 const extractDocx = async (buffer: Buffer): Promise<string> => {

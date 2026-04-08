@@ -47,7 +47,8 @@ export const MarkdownPreview = ({ content, fileName, onFileNameChange, onContent
 					value={content}
 					onChange={handleContentChange}
 					rows={14}
-					className="font-mono text-sm leading-relaxed"
+					className=" text-sm leading-relaxed"
+					style={{ fontFamily: 'var(--font-mono)' }}
 				/>
 			</div>
 		</div>

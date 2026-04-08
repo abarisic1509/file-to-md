@@ -1,7 +1,7 @@
-import type { NextConfig } from "next";
+import type { NextConfig } from 'next';
 
 const nextConfig: NextConfig = {
-  serverExternalPackages: ['pdf-parse', 'pdfjs-dist', 'word-extractor'],
+	serverExternalPackages: ['pdf-parse', 'word-extractor'],
 };
 
 export default nextConfig;
