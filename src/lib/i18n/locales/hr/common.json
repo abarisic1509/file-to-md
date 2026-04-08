@@ -11,5 +11,39 @@
 	"language": "Jezik",
 	"pages": {
 		"home": "Naslovna"
+	},
+	"upload": {
+		"title": "Učitajte datoteku",
+		"description": "Povucite i ispustite ili kliknite za odabir datoteke",
+		"supportedFormats": "Podržani formati: PDF, DOC, DOCX",
+		"maxSize": "Maksimalna veličina: {{size}}MB",
+		"changeFile": "Odaberite drugu datoteku",
+		"fileName": "Naziv datoteke",
+		"invalidFormat": "Nepodržani format. Koristite PDF, DOC ili DOCX.",
+		"fileTooLarge": "Datoteka je prevelika. Maksimalna veličina je {{size}}MB.",
+		"noFile": "Prvo odaberite datoteku."
+	},
+	"conversion": {
+		"convert": "Pretvori u Markdown",
+		"converting": "Pretvaranje...",
+		"progress": "Obrađujemo vašu datoteku...",
+		"success": "Datoteka uspješno pretvorena!",
+		"failed": "Pretvaranje nije uspjelo. Pokušajte ponovo.",
+		"errors": {
+			"NO_FILE": "Datoteka nije odabrana. Molimo odaberite datoteku.",
+			"FILE_TOO_LARGE": "Datoteka je prevelika. Odaberite manju datoteku.",
+			"INVALID_TYPE": "Nepodržani format. Koristite PDF, DOC ili DOCX.",
+			"CONVERSION_FAILED": "Pretvaranje nije uspjelo. Pokušajte ponovo."
+		}
+	},
+	"preview": {
+		"title": "Pregled Markdowna",
+		"fileName": "Naziv datoteke",
+		"content": "Sadržaj"
+	},
+	"downloadSection": {
+		"download": "Preuzmi .md datoteku",
+		"success": "Datoteka uspješno preuzeta!",
+		"failed": "Preuzimanje nije uspjelo. Pokušajte ponovo."
 	}
 }

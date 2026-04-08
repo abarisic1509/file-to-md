@@ -35,9 +35,9 @@ const RootLayout = async ({
 	return (
 		<html lang={language} className={`${geistSans.variable} ${geistMono.variable} antialiased`}>
 			<CSRLanguageProvider language={language}>
-				<body className="flex flex-col w-screen min-h-svh items-center justify-start bg-zinc-50 font-sans dark:bg-zinc-950 text-zinc-950 dark:text-zinc-50">
+				<body className="flex flex-col w-screen min-h-svh overflow-x-hidden items-center justify-start bg-zinc-50 font-sans dark:bg-zinc-900 text-zinc-950 dark:text-zinc-50">
 					<MainHeader />
-					{children}
+					<main className="flex-1 flex flex-col">{children}</main>
 				</body>
 			</CSRLanguageProvider>
 		</html>

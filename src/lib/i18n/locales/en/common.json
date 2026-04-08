@@ -11,5 +11,39 @@
 	"language": "Language",
 	"pages": {
 		"home": "Home"
+	},
+	"upload": {
+		"title": "Upload your file",
+		"description": "Drag and drop or click to select a file",
+		"supportedFormats": "Supported formats: PDF, DOC, DOCX",
+		"maxSize": "Max file size: {{size}}MB",
+		"changeFile": "Choose another file",
+		"fileName": "File name",
+		"invalidFormat": "Unsupported file format. Please use PDF, DOC, or DOCX.",
+		"fileTooLarge": "File is too large. Maximum size is {{size}}MB.",
+		"noFile": "Please select a file first."
+	},
+	"conversion": {
+		"convert": "Convert to Markdown",
+		"converting": "Converting...",
+		"progress": "Processing your file...",
+		"success": "File converted successfully!",
+		"failed": "Conversion failed. Please try again.",
+		"errors": {
+			"NO_FILE": "No file was provided. Please select a file.",
+			"FILE_TOO_LARGE": "The file is too large. Please choose a smaller file.",
+			"INVALID_TYPE": "Unsupported file type. Please use PDF, DOC, or DOCX.",
+			"CONVERSION_FAILED": "Conversion failed. Please try again."
+		}
+	},
+	"preview": {
+		"title": "Markdown Preview",
+		"fileName": "File name",
+		"content": "Content"
+	},
+	"downloadSection": {
+		"download": "Download .md file",
+		"success": "File downloaded successfully!",
+		"failed": "Download failed. Please try again."
 	}
 }
