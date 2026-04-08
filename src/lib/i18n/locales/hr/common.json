@@ -1,0 +1,15 @@
+{
+	"appName": "Filly",
+	"appDescription": "Vaše sve-u-jedan rješenje za pretvaranje PDF i DOC datoteka u AI-čitljive MD datoteke.",
+	"somethingWentWrong": "Došlo je do pogreške. Pokušajte ponovo kasnije.",
+	"nextStep": "Sljedeći korak",
+	"previousStep": "Prethodni korak",
+	"delete": "Izbriši",
+	"cancel": "Odustani",
+	"download": "Preuzmi",
+	"downloadSuccessful": "Preuzimanje uspješno",
+	"language": "Jezik",
+	"pages": {
+		"home": "Naslovna"
+	}
+}

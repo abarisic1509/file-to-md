@@ -1,0 +1,15 @@
+{
+	"appName": "Filly",
+	"appDescription": "Your all-in-one solution for converting PDF and DOC files to AI-readable MD files.",
+	"somethingWentWrong": "Something went wrong. Please try again later.",
+	"nextStep": "Next step",
+	"previousStep": "Previous step",
+	"delete": "Delete",
+	"cancel": "Cancel",
+	"download": "Download",
+	"downloadSuccessful": "Download successful",
+	"language": "Language",
+	"pages": {
+		"home": "Home"
+	}
+}

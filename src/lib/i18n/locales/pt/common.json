@@ -1,0 +1,15 @@
+{
+	"appName": "Filly",
+	"appDescription": "Sua solução completa para converter arquivos PDF e DOC em arquivos MD legíveis por IA.",
+	"somethingWentWrong": "Algo deu errado. Por favor, tente novamente mais tarde.",
+	"nextStep": "Próximo passo",
+	"previousStep": "Passo anterior",
+	"delete": "Excluir",
+	"cancel": "Cancelar",
+	"download": "Baixar",
+	"downloadSuccessful": "Download realizado com sucesso",
+	"language": "Idioma",
+	"pages": {
+		"home": "Início"
+	}
+}

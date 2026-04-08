@@ -30,6 +30,11 @@
 			"name": "@plugin",
 			"description": "Tailwind CSS v4: Load a plugin.",
 			"status": "standard"
+		},
+		{
+			"name": "@apply",
+			"description": "Tailwind CSS: Inline any existing utility classes into your own custom CSS.",
+			"status": "standard"
 		}
 	]
 }
