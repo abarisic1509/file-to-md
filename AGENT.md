@@ -1,3 +1,4 @@
+<!-- BEGIN:nextjs-agent-rules -->
 # 🤖 AI Agent Instructions — file-to-md
 
 ## 📌 Project Overview
@@ -11,6 +12,10 @@ This is a modern full-stack web application built with:
 - Zod (validation)
 
 The goal of this project is to build a scalable, production-grade SaaS application.
+
+# This is NOT the Next.js you know
+
+This version has breaking changes — APIs, conventions, and file structure may all differ from your training data. Read the relevant guide in `node_modules/next/dist/docs/` before writing any code. Heed deprecation notices.
 
 ---
 
@@ -140,3 +145,4 @@ When generating code:
 - If something is unclear, make a reasonable assumption and proceed
 
 ---
+<!-- END:nextjs-agent-rules -->
