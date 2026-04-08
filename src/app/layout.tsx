@@ -7,12 +7,12 @@ import { getServerTranslation } from '@/lib/i18n/i18nServer';
 import { defaultLang, i18nCookieName, isLanguageSupportedLocale, SupportedLocale } from '@/lib/i18n/i18nSettings';
 
 const geistSans = Geist({
-	variable: '--font-geist-sans',
+	variable: '--font-sans',
 	subsets: ['latin'],
 });
 
 const geistMono = Geist_Mono({
-	variable: '--font-geist-mono',
+	variable: '--font-mono',
 	subsets: ['latin'],
 });
 
